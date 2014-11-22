@@ -1,0 +1,180 @@
+#nav {
+
+    width: 1000px;
+    text-align: center;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 14px;
+}
+
+body.blogbody {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 14px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+}
+
+label + label {
+    margin-top: 20px;
+}
+
+input[type=text] {
+    width: 500px;
+    font-size: 20px;
+    padding: 2px;
+    font-family: monospace;
+    background: #FFF0F5;
+}
+
+input[type=text].name {
+    width: 240px;
+    height: 30px;
+    font-size: 20px;
+    padding: 2px;
+    font-family: monospace;
+    background: #FFF0F5;
+}
+input[type=text].name + input[type=text].name {
+    margin: 10px;
+}
+
+textarea {
+  width: 500px;
+  height: 400px;
+  font-size: 17px;
+  font-family: monospace;
+  background: #FFF0F5;
+}
+
+input[type=submit] {
+  font-size: 20px;
+  color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: gold;
+}
+
+.main-title {
+    color: #222;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-links {
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-bottom: 50px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.post + .post {
+    margin-top: 15px;
+}
+
+.post-heading {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+.post-content {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.post-footer {
+    position: relative;
+    font-size: 15px;
+    border-bottom: 3px solid #666;
+}
+
+.post-date {
+    color: #999;
+}
+
+.post-comment {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: #999;
+    text-decoration: none;
+}
+
+.headerpage {
+    background: white;
+}
+
+body.rsvppage {
+    margin: 0 auto;
+    padding: 10px;
+    width: 1000px;
+    color: #333;
+    background-image: url(http://static.panoramio.com/photos/large/20634309.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.dets-header-img {
+	width: 100%;
+	height: 500px;
+	margin-bottom: 100px;
+}
+.dets-body-img {
+	width: 600px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+.dets-title {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 25px;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.dets-body {
+	text-align: center;
+	font-size: 18px;
+	color: black;
+	margin-bottom: 25px;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.dets-body-tbl {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	margin-bottom: 100px;
+}
+.dets-body-tbl th {
+	color: #FFD700
+}

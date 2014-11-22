@@ -1,0 +1,25 @@
+{% extends "headers.html" %}
+{% block content %}
+	<body class="blogbody">
+	<br><br>
+	{% for p in blogs %}
+		<div class="post">
+			<a href="/blog/{{p.key().id()}}" class="post-heading">{{p.blogtitle}}</a>
+    			<div class="post-date">
+      			{{p.blogcreated.strftime("%b %d, %Y")}}
+    			</div>
+  			<div class="post-content">
+    			{{p.blogcontent | safe}}
+  			</div>
+			<br>
+			<div class="post-footer">
+    				<!div class="post-date">
+      				<!{{p.blogcreated.strftime("%b %d, %Y")}}>
+    				<!/div>
+				<a href="/blog/{{p.key().id()}}" class="post-comment">Comment</a>
+			</div>
+		</div>
+		<br><br>
+	{% endfor %}
+	</body>
+{% endblock %}

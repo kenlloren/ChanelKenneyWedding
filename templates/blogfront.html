@@ -1,0 +1,10 @@
+{% extends "headers.html" %}
+
+{% block content %}
+
+	{% for p in blogs %}
+		{{ p.render() | safe }}
+		<br><br>
+	{% endfor %}
+
+{% endblock %}

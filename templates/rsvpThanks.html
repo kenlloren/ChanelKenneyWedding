@@ -1,0 +1,20 @@
+{% extends "headers.html" %}
+{% block content %}
+	<h1>Thank you {{person.fname}} {{person.lname}}!!!
+	<br>
+	You have said 
+	{% if person.coming %}
+	Yes
+	{% else %}
+	No
+	{% endif %}
+	to coming to our wedding.
+	<br>
+	Your Email address is {{person.email}}.
+	<br>
+	Number of guest that will come with you is {{person.groupcount}}.
+	<br>
+	You left us a message of {{person.message}}.
+	<br>
+	You RSVP at {{person.rsvpcreated.strftime("%b %d, %Y")}}.
+{% endblock %}

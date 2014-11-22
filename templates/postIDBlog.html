@@ -1,0 +1,16 @@
+{% extends "headers.html" %}
+{% block content %}
+	<div class="post">
+		<a href="/blog/{{post.key().id()}}" class="post-heading">{{post.blogtitle}}</a>
+  		<div class="post-content">
+    		{{post.blogcontent | safe}}
+  		</div>
+		<br>
+		<div class="post-footer">
+    			<div class="post-date">
+      			{{post.blogcreated.strftime("%b %d, %Y")}}
+    			</div>
+			<div class="post-comment">Comment</div>
+		</div>
+	</div>
+{% endblock %}

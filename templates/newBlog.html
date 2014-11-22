@@ -1,0 +1,21 @@
+{% extends "headers.html" %}
+{% block content %}
+	<body class="blogbody">
+		<h1>New Wedding Blog Post</h1>
+		
+		<form method="post">
+			<label>
+				<div>blog title</div>
+				<input type="text" name="subject" value={{title}}>
+			</label>
+			<br>
+			<label>
+				<div>content</div>
+				<textarea name="content">{{content}}</textarea>
+			</label>
+	
+			<div class="error">{{error}}</div>
+			<input type="submit">
+		</form>
+	</body>
+{% endblock %}
