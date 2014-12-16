@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-        <link type="text/css" rel="stylesheet" href="/static/main.css" />
-	<div id="nav">
+	<head>
 		<title>Chanel x Kenney</title>
-		<br>
-		<table>
-			<tr>
-			<th>
-			<a href="/" class="main-title">Chanel x Kenney</a>
-			</th>
-			<th align=right>
-			<a href="/" class="main-links">Home</a>
-			<a href="/about" class="main-links">Our Story</a>
-			<a href="/WeddingParty" class="main-links">Wedding Party</a>
-			<a href="/WeddingDetail" class="main-links">Wedding Details</a>
-			<a href="/Photos" class="main-links">Photos</a>
-			<a href="/blog" class="main-links">Blog</a>
-			<a href="/Registray" class="main-links">Registray</a>
-			<a href="/RSVP" class="main-links">RSVP</a>
-			</th>
-			</tr>
-
-		</table>
-	</div>
-</head>
-{% block content %}
-{% endblock %}
+	</head>
+	<body>
+		<link type="text/css" rel="stylesheet" href="/static/main.css" />
+			<div id="header">
+				<br>
+				<div class="div-title">
+					<a href="/" class="main-title"><img src="http://designbump.com/wp-content/uploads/2013/11/Hipster_Designs_Branding_logo_003.jpg" width=15% height=15%></a>
+				</div>
+				<div class="div-links">
+					<a href="/" class="main-links">Home</a>
+					<a href="/about" class="main-links">Our Story</a>
+					<a href="/WeddingParty" class="main-links">Wedding Party</a>
+					<a href="/WeddingDetail" class="main-links">Wedding Details</a>
+					<a href="/Photos" class="main-links">Photos</a>
+					<a href="/blog" class="main-links">Blog</a>
+					<a href="/Registray" class="main-links">Registry</a>
+					<a href="/RSVP" class="main-links">RSVP</a>
+				</div>
+			</div>
+			<div id="body">
+				{% block content %}
+				{% endblock %}
+			</div>
+			<div id="footer">
+					<div class="social_footer">
+						<br>
+						<div class="s_f_logo">
+						<img src="http://www.galleriavittoria.com/images/social/instagram.gif" width=50px>
+						</div>
+						<div class="s_f_text">#ChanelKenneyWedding2015</div>
+					</div>
+					<div class="h_footer"><img src="http://static.squarespace.com/static/501be24c84ae56a2e58fc187/t/542b7e71e4b071bec0b365ef/1412136561253/antler_logo_mini_mark.png?format=300w" width=150px><br><em>© 2015 Chanel Bujadham x Kenneth Lloren</em></div>
+			</div>
 </html>

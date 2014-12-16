@@ -1,5 +1,41 @@
-#nav {
-	position: relative:
+
+body {
+	margin:0;
+	height: 100%;
+	margin-bottom: 0;
+    	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h2.w_det {
+	color: DarkGoldenRod;
+}
+#header {
+	position: relative;
+	height: 100px;
+	padding:0;
+}
+#body {
+	top: 100px;
+	width: 100%;
+	left: 0;
+}
+#footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	text-align:center;
+    	color:GoldenRod;
+	background-color: #282828;
+}
+
+.h_footer {
+    	color: GoldenRod;
+    	font-size: 20px;
+}
+.div-title {
+	position: absolute;
+	left: 5%;
+	top: 0%;
 }
 .main-title {
     	color: #222;
@@ -7,20 +43,35 @@
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
-	position: absolute;
-	left: 0%;
-	top: 0%;
 }
-
-.main-links {
-    	color: black;
-    	font-size: 10px;
-    	font-weight: bold;
-    	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    	margin-bottom: 50px;
-    	text-decoration: none;
-    	padding: 5px;
+.div-links {
 	position: absolute;
 	right: 0px;
+	top: 37px;
 }
-
+.main-links {
+    	color: GoldenRod;
+    	font-size: 16px;
+    	margin-bottom: 50px;
+    	text-decoration: none;
+    	padding: 10px;
+}
+.main-img {
+	width: 100%;
+	vertical-align: top;
+}
+.w-det-img {
+	width: 100%;
+}
+.social_footer{
+	background-color: #C0C0C0;
+}
+.s_f_logo {
+	position: relative;
+	left: -65px;
+}
+.s_f_text {
+	position: relative;
+	top: -35px;
+	left: 65px;
+}
