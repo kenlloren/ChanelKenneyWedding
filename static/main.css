@@ -68,10 +68,9 @@ h2.w_det {
 }
 .s_f_logo {
 	position: relative;
-	left: -65px;
+	top: -35px;
+	left: -135px;
 }
 .s_f_text {
 	position: relative;
-	top: -35px;
-	left: 65px;
 }
