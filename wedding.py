@@ -24,7 +24,7 @@ class Handler(webapp2.RequestHandler):
 #main page class
 class MainPage(Handler):
 	def get(self):
-		image = "/static/images/ChanelKenneyMainImage.jpg"
+		image = "/static/images/ChanelKenneyMainImage2.jpg"
 		self.render("main.html",image=image)
 
 #About page class
