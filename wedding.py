@@ -32,6 +32,13 @@ class AboutPage(Handler):
 	def get(self):
 		self.render("about.html")
 
+class RegistrayPage(Handler):
+	def get(self):
+		self.render("Registray.html")
+
+class WeddingPartyPage(Handler):
+	def get(self):
+		self.render("WeddingParty.html")
 class WeddingDetailPage(Handler):
 	def get(self):
 		self.render("WeddingDetail.html")
@@ -222,6 +229,8 @@ app = webapp2.WSGIApplication([
 	('/SignUp', SignUpPage),
 	('/SignUp/welcome', WelcomePage),
 	('/about',AboutPage),
+	('/Registray',RegistrayPage),
+	('/WeddingParty',WeddingPartyPage),
 	('/WeddingDetail',WeddingDetailPage),
 	('/RSVP',RSVPPage),
 	('/RSVP/([0-9]+)',RSVPIDHandler),

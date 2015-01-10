@@ -3,9 +3,14 @@ body {
 	margin:0;
 	height: 100%;
 	margin-bottom: 0;
-    	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;;
+}
+h1.w_det {
+	color: DarkGoldenRod;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;;
 }
 h2.w_det {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;;
 	color: DarkGoldenRod;
 }
 #header {
@@ -22,7 +27,7 @@ h2.w_det {
 	position: absolute;
 	left: 0;
 	width: 100%;
-	height: 250px;
+	height: 200px;
 	text-align:center;
     	color:DarkGoldenRod;
 	background-color: #282828;
@@ -63,6 +68,11 @@ h2.w_det {
 .w-det-img {
 	width: 100%;
 }
+.w-det-text {
+	line-height: 1.5;
+	font-family: 'Courier New';
+}
+
 .social_footer{
 	background-color: #C0C0C0;
 	height: 50px;
@@ -75,3 +85,6 @@ h2.w_det {
 .s_f_text {
 	position: relative;
 }
+
+
+
