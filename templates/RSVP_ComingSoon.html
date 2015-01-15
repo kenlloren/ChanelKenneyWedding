@@ -1,0 +1,59 @@
+{% extends "headers.html" %}
+{% block content %}
+		<div>
+			<img src="/static/images/rsvpbanner.jpg" class="main-img">
+		</div>
+		<div class="rsvppage">
+		<center>
+		<h1 class="w_det">Coming in March!
+				 <br>You will be able to RSVP once you recieve your invitation.  
+				<br>Please respond by June 1, 2015.</h1>
+		</center>
+		<form method="post">
+			<label>
+				<div>Email Address *</div>
+				<input type="text" name="email" value={{email}}>
+			</label>
+			<label>
+				<div>Name *</div>
+				<input type="text" name="fname" class="name" value={{fname}}>
+				<input type="text" name="lname" class="name" value={{lname}}>
+			</label>
+			<label>
+				<table>
+					<tr>
+						<td width="250px">
+						<div>Will you be there? *</div>
+						</td>
+						<td>
+						<label>
+						<input type="radio" name="coming" value="yes">	
+						Yes
+						</label>
+						</td>
+					</tr>
+					<tr>
+						<td width="250px">
+						</td>
+						<td>
+						<label>
+						<input type="radio" name="coming" value="no">	
+						No	
+						</label>
+						</td>
+					</tr>
+				</table>
+			</label>
+			<label>
+				<div>Number of people in your group</div>
+				<input type="text" name="groupcount" value={{title}}>
+			</label>
+			<label>
+				<div>Message</div>
+				<textarea name="message">{{message}}</textarea>
+			</label>
+			<br>
+			<div class="error">{{rsvperror|safe}}</div>
+			<input type="submit">
+		</form>
+{% endblock %}

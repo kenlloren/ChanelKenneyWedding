@@ -3,7 +3,7 @@ body {
 	margin:0;
 	height: 100%;
 	margin-bottom: 0;
-	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;;
+	font-family: 'Courier New';
 }
 h1.w_det {
 	color: DarkGoldenRod;
@@ -67,10 +67,15 @@ h2.w_det {
 }
 .w-det-img {
 	width: 100%;
+	display: block;
+	margin-bottom: 2px;
 }
 .w-det-text {
 	line-height: 1.5;
 	font-family: 'Courier New';
+}
+.wp-img {
+	width: 300px;
 }
 
 .social_footer{
@@ -85,6 +90,61 @@ h2.w_det {
 .s_f_text {
 	position: relative;
 }
+.rsvppage {
+	line-height: 1.5;
+	font-family: 'Courier New';
+	margin: 0 auto;
+	width: 1000px;
+	color: #333;
+}
+.photo-page {
+	display: block;
+	width: 1000px;
+	margin: 10px 10px;
+	padding: 0px 10px;
+	font-size: 0px;
+}
+.photo-type-1 {
+	width: 323.33px;
+	margin: 5px 5px;
+}
 
+.photo-type-2 {
+	height: 452.307px;
+	margin: 5px 5px;
+}
+
+.photo-type-3 {
+	width: 990px;
+	margin: 5px 5px;
+}
+
+.error {
+	color: red;
+}
+
+input[type=text] {
+    	width: 750px;
+    	font-size: 20px;
+	font-family: 'Courier New';
+	background: #FAFAD2;
+}
+input[type=text].name {
+    	width: 370px;
+    	font-size: 20px;
+	font-family: 'Courier New';
+	background: #FAFAD2;
+}
+input[type=text].name + input[type=text].name {
+    margin: 10px;
+}
+label {
+  display: block;
+  font-size: 20px;
+}
+
+label + label {
+    margin-top: 20px;
+}
 
 

@@ -43,6 +43,10 @@ class WeddingDetailPage(Handler):
 	def get(self):
 		self.render("WeddingDetail.html")
 
+class PhotoPage(Handler):
+	def get(self):
+		self.render("photo.html")
+
 #create blog content database
 class BlogContent(db.Model):
 	blogtitle = db.StringProperty(required = True)
@@ -229,6 +233,7 @@ app = webapp2.WSGIApplication([
 	('/SignUp', SignUpPage),
 	('/SignUp/welcome', WelcomePage),
 	('/about',AboutPage),
+	('/Photo', PhotoPage),
 	('/Registray',RegistrayPage),
 	('/WeddingParty',WeddingPartyPage),
 	('/WeddingDetail',WeddingDetailPage),
