@@ -13,7 +13,7 @@ handlers:
   static_dir: static
 
 - url: .*
-  script: weddingTest.py
+  script: wedding.app
 
 
 libraries:
